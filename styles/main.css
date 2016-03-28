@@ -26,21 +26,18 @@ html, body {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  background-color: #20232d;
+  background-color: #18191e;
   text-align: center;
   color: #ffffff;
 }
 
-.eyes{
-    outline: 1px solid red;
-}
+.eyes,
 .eyes canvas{
     max-width: 100%;
 }
 .error{   
     box-sizing: border-box;
     padding: 15px;
-    outline: 1px solid green;
 }
 .error__heading{
     font-size: 26px;
@@ -88,15 +85,11 @@ background-color: rgba(141, 73, 107, 0.4);
     margin: 0 10px;
     color: #ffffff;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 24px;
   opacity: 1;
 }
 .error__social:hover{
-  opacity: .4;
-}
-.error__social:active{
-  opacity: 1;
-  color: #F2594B;
+  color: rgba(141, 73, 107, 1);
 }
 
 @media (min-width: 960px) {
@@ -128,7 +121,12 @@ background-color: rgba(141, 73, 107, 0.4);
     }
 }
 
-
+@media (min-width: 1600px) {
+    body{
+        box-sizing: border-box;
+        padding: 0 20%;
+    }
+}
 
 
 
