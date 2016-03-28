@@ -25,7 +25,6 @@
     +-- styles /
     ¦    +-- main.css
     +-- scripts /
-    ¦	+-- jquery.fullPage.js
     ¦	+-- jquery.js
     ¦	+-- main.js
     +-- 404.html
