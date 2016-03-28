@@ -1,42 +1,24 @@
 /*
-Template Name: Digitize HTML Template
+Template Name: The eye - Responsive Animated 404 Page
 Author: Rogatnev Nikita
 Version: 1.0.0
-Tags: clean, minimal, creative, modern, responsive, mobile, jquery, html5, css3, contact form, personal, business, corporate, agency, portfolio, designer, freelancer, photographer, universal
+Tags: error, error page, creative, clean, modern, minimal, animated, responsive, dark, oh no, oops
 */
 
 /* ------------------------------------------ */
 /*             TABLE OF CONTENTS
 /* ------------------------------------------ */
-/*  01 - FONTS  */
-/*  02 - GENERAL STYLES  */
-/*  03 - MENU  */
-/*  04 - MAIN CONTAINER  */
-/*  05 - INTRO  */
+/*  01 - GENERAL STYLES  */
+/*  02 - MENU  */
+/*  03 - MAIN CONTAINER  */
+/*  04 - INTRO  */
+
 
 /* ------------------------------------------ */
-/*             01 - FONTS
-/* ------------------------------------------ */
-@font-face {
-    font-family: "montserrat";
-    src: url("../fonts/montserrat/montserrat.eot");
-    url("../fonts/montserrat/montserrat.woff") format("woff"), url("../fonts/montserrat/montserrat.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-@font-face {
-    font-family: "montserrat-bold";
-    src: url("../fonts/montserrat-bold/montserrat-bold.eot");
-    url("../fonts/montserrat-bold/montserrat-bold.woff") format("woff"), url("../fonts/montserrat-bold/montserrat-bold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-/* ------------------------------------------ */
-/*             02 - GENERAL STYLES
+/*             01 - GENERAL STYLES
 /* ------------------------------------------ */
 body {
-    font: 16px/1.5 "montserrat", "Arial", sans-serif;
+    font-family: 'Lucida Console', Monaco, monospace;
     font-weight: normal;
     margin: 0;
     padding: 0;
@@ -92,7 +74,7 @@ pre{
 }
 
 /* ------------------------------------------ */
-/*             03 - MENU
+/*             02 - MENU
 /* ------------------------------------------ */
 .aside {
     position: fixed;
@@ -137,7 +119,7 @@ pre{
 }
 
 /* ------------------------------------------ */
-/*             04 - MAIN CONTAINER
+/*             03 - MAIN CONTAINER
 /* ------------------------------------------ */
 main {
     width: 100%;
@@ -152,7 +134,7 @@ main h1 {
 }
 
 /* ------------------------------------------ */
-/*             05 - INTRO
+/*             04 - INTRO
 /* ------------------------------------------ */
 .intro {
     padding: 50px 0;
