@@ -161,7 +161,6 @@ body {
     position: relative;
     padding: 40px;
     background-color: white;
-    min-width: 320px;
     min-height: 126px;
     margin: auto;
     visibility: hidden;
@@ -352,6 +351,7 @@ body {
 }
 @media (min-width: 960px) {
     .modal__inset {
+        min-width: 320px;
         max-width: 550px;
     }
 }
