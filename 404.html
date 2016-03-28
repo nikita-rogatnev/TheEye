@@ -16,21 +16,50 @@
 
 <body>
 
+	<!-- MAIN CONTENT -->
     <main class="error">
         <h1 class="error__heading"><span>ERROR 404</span> NOT FOUND</h1>
         <p class="error__description">The page you are looking for is temporarily unavailable. Please try again later.</p>
         
         <div class="error__buttons">
             <a href="#" class="error__button">HOME</a>
-            <a href="#" class="error__button">CONTACT US</a>
+            <button class="error__button modal--open">CONTACT US</button>
         </div>
         
         <div class="error__socials">
-            <a href="#" class="error__social"><i class="fa fa-paper-plane"></i></a>
-            <a href="#" class="error__social"><i class="fa fa-facebook"></i></a>
-            <a href="#" class="error__social"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="error__social fa fa-paper-plane"></a>
+            <a href="#" class="error__social fa fa-facebook"></a>
+            <a href="#" class="error__social fa fa-twitter"></a>
         </div>
     </main>
+	<!-- MAIN CONTENT END -->
+
+	<!-- MODAL BOX -->
+    <section class="modal">
+        <div class="modal__box">
+		    <div class="modal__inset">
+      			<div class="modal__close"><i class="fa fa-close"></i></div>
+	
+                <div class="modal__content">
+                    <h2>REPORT FORM</h2>
+                    <form action="#" class="modal__form">
+                        <input type="text" name="email" placeholder="Your Email" \>
+                        <textarea name="text" placeholder="You feedback about the problem here..."></textarea>
+                        <button>SEND</button>
+                    </form>
+                    <small>* This gives you first hand information about your broken links from your users and also a chance to build a rapport with the user via email.</small>
+      			</div>
+      			
+    		</div>
+        </div>
+    </section>
+    <div class="modal-overlay"></div>
+	<!-- MODAL BOX END -->
+
+	<!-- SCRIPTS -->
+	<script src="./scripts/jquery.js"></script>
+	<script src="./scripts/main.js"></script>
+	<!-- SCRIPTS END -->
 
 </body>
 </html>
