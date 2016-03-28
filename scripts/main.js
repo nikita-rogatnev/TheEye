@@ -1,5 +1,5 @@
 /*
-Template Name: Responsive Animated 404 Page
+Template Name: The eye - Responsive Animated 404 Page
 Author: Rogatnev Nikita
 Version: 1.0.0
 Tags: error, error page, 404, creative, clean, modern, minimal, animated, responsive, dark, oh no, oops
