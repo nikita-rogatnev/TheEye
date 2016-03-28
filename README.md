@@ -1,15 +1,12 @@
-# Responsive Animated 404 Pages
+# The eye - Responsive Animated 404 Page
 
-<h4>Features</h4>
-<ul>
-  <li></li>
-</ul>
+The eye is an efficient 404 responsive Page with 2 color schemes. Clean, classy and elegant for every creative people, corporates, agency, e-commerce, business, portfolio etc…
 
 <h4>Summary</h4>
 <ul>
   <li>High Resolution: Yes</li>
   <li>Compatible Browsers: IE11, Firefox, Safari, Opera, Chrome, Edge</li>
-  <li>Files Included: HTML Files, CSS Files, JS Filess</li>
+  <li>Files Included: HTML Files, CSS Files, JS Files</li>
   <li>Columns: 1</li>
   <li>Documentation: Well Documented</li>
   <li>Layout: Responsive</li>
