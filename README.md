@@ -1,4 +1,4 @@
-# 404 HTML Template
+# Responsive Animated 404 Pages
 
 <h4>Features</h4>
 <ul>
