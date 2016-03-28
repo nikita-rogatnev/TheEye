@@ -11,7 +11,7 @@ The eye is an efficient 404 responsive Page. Clean, classy and elegant for every
   <li>Documentation: Well Documented</li>
   <li>Layout: Responsive</li>
   <li>Category: Specialty Pages / 404 Pages</li>
-  <li>Tags: error, error page, 404, creative, clean, modern, minimal, animated, responsive, dark, oh no, oops</li>
+  <li>Tags: error, error page, creative, clean, modern, minimal, animated, responsive, dark, oh no, oops</li>
 </ul>
 
 <h4>File structure</h4>
