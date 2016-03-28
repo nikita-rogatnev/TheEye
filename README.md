@@ -1,6 +1,6 @@
 # The eye - Responsive Animated 404 Page
 
-The eye is an efficient 404 responsive Page with 2 color schemes. Clean, classy and elegant for every creative people, corporates, agency, e-commerce, business, portfolio etc…
+The eye is an efficient 404 responsive Page. Clean, classy and elegant for every creative people, corporates, agency, e-commerce, business, portfolio etc…
 
 <h4>Summary</h4>
 <ul>
