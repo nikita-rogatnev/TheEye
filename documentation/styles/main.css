@@ -1,0 +1,175 @@
+/*
+Template Name: Digitize HTML Template
+Author: Rogatnev Nikita
+Version: 1.0.0
+Tags: clean, minimal, creative, modern, responsive, mobile, jquery, html5, css3, contact form, personal, business, corporate, agency, portfolio, designer, freelancer, photographer, universal
+*/
+
+/* ------------------------------------------ */
+/*             TABLE OF CONTENTS
+/* ------------------------------------------ */
+/*  01 - FONTS  */
+/*  02 - GENERAL STYLES  */
+/*  03 - MENU  */
+/*  04 - MAIN CONTAINER  */
+/*  05 - INTRO  */
+
+/* ------------------------------------------ */
+/*             01 - FONTS
+/* ------------------------------------------ */
+@font-face {
+    font-family: "montserrat";
+    src: url("../fonts/montserrat/montserrat.eot");
+    url("../fonts/montserrat/montserrat.woff") format("woff"), url("../fonts/montserrat/montserrat.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "montserrat-bold";
+    src: url("../fonts/montserrat-bold/montserrat-bold.eot");
+    url("../fonts/montserrat-bold/montserrat-bold.woff") format("woff"), url("../fonts/montserrat-bold/montserrat-bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* ------------------------------------------ */
+/*             02 - GENERAL STYLES
+/* ------------------------------------------ */
+body {
+    font: 16px/1.5 "montserrat", "Arial", sans-serif;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+    text-transform: uppercase;
+}
+a,
+a:hover,
+a:active {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+a:hover {
+    -webkit-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
+a {
+    color: #D63240;
+}
+section {
+    margin-bottom: 150px;
+}
+strong {
+    display: block;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+pre{
+    max-width: 100%;
+    overflow-x: scroll;
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0;
+}
+.autor {
+    margin-top: 60px;
+}
+.copy {
+    margin-top: 60px;
+    text-align: center;
+}
+
+/* ------------------------------------------ */
+/*             03 - MENU
+/* ------------------------------------------ */
+.aside {
+    position: fixed;
+    height: 100%;
+    width: 270px;
+    background: #16181c;
+}
+.aside > ul {
+    padding: 0;
+    list-style: none;
+    overflow: auto;
+}
+.aside > ul > li {
+    width: 100%;
+    text-align: left;
+}
+.aside > ul a {
+    display: block;
+    padding: 13px 0 13px 30px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.aside > ul a:hover {
+    background-color: #1f222d;
+    color: #fff;
+}
+.aside > ul a:active {
+    color: #D63240;
+}
+.aside > ul li a.active {
+    background-color: #1f222d;
+}
+.aside > ul li a.active {
+    color: #fff;
+}
+.eyes {
+    margin-top: 40px;
+}
+.eyes,
+.eyes canvas {
+    max-width: 100%;
+}
+
+/* ------------------------------------------ */
+/*             04 - MAIN CONTAINER
+/* ------------------------------------------ */
+main {
+    width: 100%;
+
+    box-sizing: border-box;
+    padding: 20px 20px 20px 290px;
+}
+main h1 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+/* ------------------------------------------ */
+/*             05 - INTRO
+/* ------------------------------------------ */
+.intro {
+    padding: 50px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.intro h2 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    border: 0;
+}
+
+@media (max-width: 960px) {
+    .aside {
+        display: none;
+    }
+    main{
+        padding-left: 20px;
+    }
+}
