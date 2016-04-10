@@ -49,10 +49,18 @@
                 </div>
                 <div class="modal__content">
                     <h2>REPORT FORM</h2>
-                    <form action="mail.php" class="modal__form" method="post" enctype="multipart/form-data">
-                        <input type="text" name="email" placeholder="Your email" required="required">
-                        <textarea name="text" placeholder="You feedback about the problem here..." required="required"></textarea>
-                        <button>SEND</button>
+                    <form action="mail.php" class="modal__form" method="post">
+
+                        <div class="modal__content-item" id="email">
+                            <input type="text" name="email" placeholder="Your email" required="required">
+                        </div>
+                        <div class="modal__content-item" id="text">
+                            <textarea name="text" placeholder="You feedback about the problem here..." required="required"></textarea>
+                        </div>
+                        <div class="modal__content-item" id="button">
+                            <button type="submit">SEND</button>
+                        </div>
+
                     </form>
                     <small>* This gives you first hand information about your broken links from your users and also a chance to build a rapport with the user via email.</small>
                 </div>
