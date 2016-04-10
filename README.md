@@ -7,7 +7,7 @@ http://rogatnev-nikita.github.io/the-eye-404/html/404.html
 <ul>
   <li>High Resolution: Yes</li>
   <li>Compatible Browsers: IE11, Firefox, Safari, Opera, Chrome, Edge</li>
-  <li>Files Included: HTML Files, CSS Files, JS Files</li>
+  <li>Files Included: HTML Files, CSS Files, JS Files, PHP Files</li>
   <li>Columns: 1</li>
   <li>Documentation: Well Documented</li>
   <li>Layout: Responsive</li>
@@ -23,6 +23,7 @@ http://rogatnev-nikita.github.io/the-eye-404/html/404.html
     +-- styles /
     ¦    +-- main.css
     +-- 404.html
+    +-- mail.php
     
 <h4>Sources & Credits</h4>
 <ul>
