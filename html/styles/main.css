@@ -19,6 +19,7 @@ html,
 body {
     position: relative;
 
+    box-sizing: border-box;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -26,10 +27,10 @@ body {
 
     text-align: center;
 
-    color: #ffffff;
-    background-color: #18191e;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(24, 25, 30, 1);
 
-    font-family: 'Lucida Console', Monaco, monospace;
+    font-family: "Lucida Console", Monaco, monospace;
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
@@ -73,7 +74,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
 
-    color: #FFF;
+    color: rgba(255, 255, 255, 1);
     border: none;
     border-radius: 3px;
     outline: none;
@@ -97,7 +98,7 @@ body {
     text-decoration: none;
 
     opacity: 1;
-    color: #ffffff;
+    color: rgba(255, 255, 255, 1);
 
     font-size: 24px;
 }
@@ -148,13 +149,12 @@ body {
             -ms-flex-pack: center;
                 justify-content: center;
     }
-    .error__button {} .error__button:first-child {
+    .error__button:first-child {
         margin-right: 15px;
     }
 }
 @media (min-width: 1600px) {
     body {
-        box-sizing: border-box;
         padding: 0 20%;
     }
 }
@@ -163,7 +163,7 @@ body {
 /*             02 - MODAL BOX
 /* ------------------------------------------ */
 .modal {
-    position: absolute;
+    position: fixed;
     z-index: 50;
     top: 0;
     right: 0;
@@ -182,7 +182,7 @@ body {
 
     text-align: center;
 
-    color: #20232d;
+    color: rgba(24, 25, 30, 1);
 
     -webkit-align-items: center;
     -webkit-box-align: center;
@@ -214,7 +214,7 @@ body {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 
-    background-color: white;
+    background-color: rgba(255, 255, 255, 1);
     box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.2);
 
     -webkit-backface-visibility: hidden;
@@ -282,7 +282,7 @@ body {
     margin-bottom: 15px;
     padding: 15px;
 
-    border: 2px solid #18191e;
+    border: 2px solid rgba(24, 25, 30, 1);
     border-radius: 3px;
 
     font-size: 12px;
@@ -296,7 +296,7 @@ body {
     margin-bottom: 15px;
     padding: 15px;
 
-    border: 2px solid #18191e;
+    border: 2px solid rgba(24, 25, 30, 1);
     border-radius: 3px;
 
     font-size: 12px;
@@ -314,7 +314,7 @@ body {
     margin: 0 0 15px;
     padding: 15px;
 
-    border: 2px solid #18191e;
+    border: 2px solid rgba(24, 25, 30, 1);
     border-radius: 3px;
     background: transparent;
 
@@ -324,7 +324,7 @@ body {
     border: 2px solid rgba(141, 73, 107, 1);
 }
 .modal__form button:active {
-    color: #18191e;
+    color: rgba(24, 25, 30, 1);
 }
 .modal-overlay {
     position: absolute;
@@ -344,7 +344,7 @@ body {
     -webkit-transition-delay: 0s, 0s;
 
     opacity: 0;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 1);
 }
 .modal-overlay.modal--show {
     /*opacity: .1;*/
