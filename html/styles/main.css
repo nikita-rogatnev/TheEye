@@ -238,6 +238,9 @@ body {
 .modal__inset .modal__close:hover {
 	opacity: 1;
 }
+.modal__inset .modal__close:active {
+	color: rgba(141, 73, 107, 1);
+}
 .modal__content {
 	margin: auto;
 
