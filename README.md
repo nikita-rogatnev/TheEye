@@ -27,20 +27,12 @@ The eye is an efficient 404 responsive Page. Clean, classy and elegant for every
     +-- mail.php
     
 <h4>Sources & Credits</h4>
-<ul>
-  <li>
-    <strong>Font Awesome</strong><br>
-    font-awesome.min.css v4.5.0<br>
-    Copyright © Dave Gandy<br>
-    Licensed under MIT (http://fontawesome.io/license/)
-  </li>                
-  <li>
-    <strong>jQuery</strong><br>
-    jquery.min.js v3.0.0-beta1<br>
-    Licensed under MIT (https://jquery.org/license/)
-  </li>
-  <li>
-    <strong>eyes.js</strong><br>
-    Copyright (C) 2011 Hakim El Hattab, (http://hakim.se)
-  </li>
-</ul>
+* <strong>Font Awesome</strong>  
+		font-awesome.min.css v4.5.0  
+		[Licensed under MIT](http://fontawesome.io/license/)
+* <strong>jQuery</strong>  
+		jquery.js v3.0.0-beta1  
+		[Licensed under MIT](https://jquery.org/license/)
+* <strong>eyes.js</strong>  
+		eyes.js
+		[Copyright (C) 2011 Hakim El Hattab](http://hakim.se)
