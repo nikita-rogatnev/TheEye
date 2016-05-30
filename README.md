@@ -34,5 +34,5 @@ The eye is an efficient 404 responsive Page. Clean, classy and elegant for every
 		jquery.js v3.0.0-beta1  
 		[Licensed under MIT](https://jquery.org/license/)
 * <strong>eyes.js</strong>  
-		eyes.js
+		eyes.js  
 		[Copyright (C) 2011 Hakim El Hattab](http://hakim.se)
