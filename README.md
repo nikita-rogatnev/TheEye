@@ -1,6 +1,6 @@
 # THE EYE — Responsive Animated HTML5 Template
 [![THE EYE][2]][1]
-  [1]: http://rogatnev-nikita.github.io/the-eye-404/html/404.html
+  [1]: http://rogatnev.ru/TheEye/html/404.html
   [2]: dev/preview/preview-1.png (THE EYE demo)
 The eye is an efficient 404 responsive Page. Clean, classy and elegant for every creative people, corporates, agency, e-commerce, business, portfolio etc…<br>
 
